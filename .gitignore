@@ -1,0 +1,43 @@
+
+# Dependencies
+node_modules/
+venv/
+env/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Environment variables - Never commit secrets
+.env
+.env.*
+!.env.example
+
+# Google OAuth credentials
+client_secret.json
+token.json
+credentials.json
+
+# Build files
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+.pytest_cache/
+.mypy_cache/
+
+# Temporary files
+*.tmp
+*.bak
